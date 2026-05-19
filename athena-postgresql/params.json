@@ -1,0 +1,9 @@
+  [
+    {"ParameterKey": "LambdaFunctionName",      "ParameterValue": "athena-pg-connector"},
+    {"ParameterKey": "DefaultConnectionString",  "ParameterValue":
+  "postgres://jdbc:postgresql://connector-test.cluster-cfyyi6aygwtp.ap-south-1.rds.amazonaws.com:5432/test?user=postgres&password=testing123#"},
+    {"ParameterKey": "SecretNamePrefix",         "ParameterValue": "AthenaPostgreSQL"},
+    {"ParameterKey": "SpillBucket",              "ParameterValue": "aqs-bucket-dev-connectors3-ocfvkutp24h9"},
+    {"ParameterKey": "SecurityGroupIds",         "ParameterValue": "sg-085b7edb0a3bce37c"},
+    {"ParameterKey": "SubnetIds",                "ParameterValue": "subnet-0b634439ddd3f2fb3,subnet-0cc8185b0b0eca444"}
+  ]

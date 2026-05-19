@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.dafny</groupId>
+  <artifactId>DafnyRuntime</artifactId>
+  <version>4.1.0</version>
+  <name>DafnyRuntime</name>
+  <description>Runtime for Dafny programs compiled to Java</description>
+  <url>https://github.com/dafny-lang/dafny</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://spdx.org/licenses/MIT.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>The Dafny core team</name>
+      <email>core-team@dafny.org</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/dafny-lang/dafny.git</connection>
+    <developerConnection>scm:git:git@github.com:dafny-lang/dafny.git</developerConnection>
+    <url>https://github.com/dafny-lang/dafny</url>
+  </scm>
+</project>
