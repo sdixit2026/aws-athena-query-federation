@@ -1,6 +1,0 @@
-LambdaFunctionName: athena-pg-connector
-DefaultConnectionString: "postgres://jdbc:postgresql://connector-test.cluster-cfyyi6aygwtp.ap-south-1.rds.amazonaws.com:5432/test?user=postgres&password=testing123#"
-SecretNamePrefix: AthenaPostgreSQL
-SpillBucket: aqs-bucket-dev-connectors3-ocfvkutp24h9
-SecurityGroupIds: sg-0c77213b77674d15a
-SubnetIds: "subnet-0b634439ddd3f2fb3,subnet-0cc8185b0b0eca444"
